@@ -18,6 +18,10 @@ git cherry-pick <sha1><sha2>
 git add .
 git commit -m "<message>"
 ```
+Решение:
+Необходимо прислать результат команды:
+```
+git log --oneline --graph --decorate --all
+```
 
 ![](./git.png)
->>>>>>> 8f03db5 (README)
