@@ -45,3 +45,6 @@ A.Cnp = -0.069;
 A.Cnr = -0.095;
 A.Cnda = -0.011;
 A.Cndr = -0.069;
+
+% сохранение в mat файл
+save('Aero.mat', "A", '-mat');
